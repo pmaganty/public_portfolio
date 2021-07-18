@@ -1,9 +1,34 @@
 #whole_center {
-    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 500px;
+}
+
+.center-wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.center-bg {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.center-content {
+    position: relative;
+}
+
+#pran_img {
+    width: 200px;
+    border-radius: 100%;
+    border: 5px #3c413b solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
