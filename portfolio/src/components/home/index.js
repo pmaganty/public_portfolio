@@ -6,7 +6,7 @@ import './home.css';
 
 function Home() {
     return (
-      <div>
+      <div id="whole_home">
           <Header />
           <Center />
           <Projects />
