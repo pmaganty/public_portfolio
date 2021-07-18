@@ -1,6 +1,12 @@
 #whole_projects {
-    height: 500px;
     background-color: #3c413b;
-    width: 100%;
     border-top: 10px rgb(238, 217, 217) solid;
+    padding-bottom: 30px;
+}
+
+#ex_title {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: #939d92;
+    padding: 10px;
 }
