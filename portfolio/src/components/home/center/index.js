@@ -6,11 +6,15 @@ function Center() {
 
   return (
     <div className="center-wrap">
-        <img
-            class="center-bg"
-            src={background}
-            alt="background image"
-        />
+        <div className="row justify-content-center">
+            <div className="col-sm-12 col-md-12 col-lg-12">
+                <img
+                    class="center-bg"
+                    src={background}
+                    alt="background image"
+                />
+            </div>
+        </div>
         <div className="row justify-content-center center-content">
             <div className="col-sm-10 col-md-6 col-lg-6" id="whole_center">
                 <div className="row justify-content-center" id="pic">
