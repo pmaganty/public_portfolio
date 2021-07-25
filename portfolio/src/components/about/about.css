@@ -4,6 +4,20 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 0px !important;
+}
+
+#rc_id, #self_id, #fpga_id, #yos_id, #nc_id, #zion_id  {
+    width: 100%;
+}
+
+.card_v1 {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    height: 475px;
+    margin: 10px;
 }
 
 #info {
@@ -32,21 +46,27 @@
     display: block;
 }
 
+.card-img-top_v2 {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    flex-shrink: 0;
+}
+
 #about_text {
-    margin: auto;
-    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #whole_about {
 
 }
 
-
-
 #top_about {
     text-align: left;
     padding: 30px;
-    background-color: #afb9ae;
+    background-color: #d5e0d4;
+    margin-top: 40px;
+    border: 5px solid silver;
 }
 
 #about_title {
