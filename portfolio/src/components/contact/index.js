@@ -6,13 +6,13 @@ function Contact() {
   return (
     <div>
         <Header />
-        <div className="row justify-content-center">
+        <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-12" id="contact_title">
                 <h1>Contact Me</h1>
             </div>
         </div>
         <div className="row">
-            <div className="col-sm-11 col-md-7 col-lg-7">
+            <div className="col-sm-11 col-md-7 col-lg-7" id="contact_form">
                 <form>
                     <div className="form-group">
                         <label for="exampleFormControlInput1">Name</label>
@@ -26,7 +26,7 @@ function Contact() {
                         <label for="exampleFormControlTextarea1">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <button type="submit" className="btn">Submit</button>
                 </form>
             </div>
         </div>
