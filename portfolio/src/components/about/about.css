@@ -7,17 +7,24 @@
     margin-right: 0px !important;
 }
 
+#img_div_1 {
+    height: 300px;
+}
+
+#img_div_2 {
+    height: 300px;
+}
+
 #rc_id, #self_id, #fpga_id, #yos_id, #nc_id, #zion_id  {
     width: 100%;
+    margin-top: 10px;
 }
 
 .card_v1 {
     background-color: #fff;
-    background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
-    height: 475px;
-    margin: 10px;
+    margin: 15px;
 }
 
 #info {

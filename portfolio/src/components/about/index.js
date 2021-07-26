@@ -53,7 +53,7 @@ function About() {
                             <div className="col-sm-12 col-md-12 col-lg-12">
                                 <div className="row justify-content-center">
                                     <div className="col-sm-12 col-md-3 col-lg-3 card_v1">
-                                        <div className="row justify-content-center">
+                                        <div className="row justify-content-center" id="img_div_1">
                                             <div className="col-sm-12 col-md-12 col-lg-12">
                                                 <img src={self_sort_pic} className="card-img-top_v2" id="self_id" alt="SELF SORT"/>
                                             </div>
@@ -66,7 +66,7 @@ function About() {
                                         </div>
                                     </div>
                                     <div className="col-sm-12 col-md-3 col-lg-3 card_v1">
-                                        <div className="row justify-content-center">
+                                        <div className="row justify-content-center" id="img_div_1">
                                             <div className="col-sm-12 col-md-12 col-lg-12">
                                                 <img src={rc_car} className="card-img-top_v2" id="rc_id" alt="RC CAR"/>
                                             </div>
@@ -79,7 +79,7 @@ function About() {
                                         </div>
                                     </div>
                                     <div className="col-sm-12 col-md-3 col-lg-3 card_v1">
-                                        <div className="row justify-content-center">
+                                        <div className="row justify-content-center" id="img_div_1">
                                             <div className="col-sm-12 col-md-12 col-lg-12">
                                             <img src={fpga} className="card-img-top_v2" id="fpga_id" alt="FPGA"/>
                                             </div>
@@ -103,7 +103,7 @@ function About() {
                             <div className="col-sm-12 col-md-12 col-lg-12">
                                 <div className="row justify-content-center">
                                     <div className="col-sm-12 col-md-3 col-lg-3 card_v1">
-                                        <div className="row justify-content-center">
+                                        <div className="row justify-content-center" id="img_div_2">
                                             <div className="col-sm-12 col-md-12 col-lg-12">
                                             <img src={yos_pic} className="card-img-top_v2" id="yos_id" alt="YOSEMITE"/>
                                             </div>
@@ -116,27 +116,27 @@ function About() {
                                         </div>
                                     </div>
                                     <div className="col-sm-12 col-md-3 col-lg-3 card_v1">
-                                        <div className="row justify-content-center">
+                                        <div className="row justify-content-center" id="img_div_2">
                                             <div className="col-sm-12 col-md-12 col-lg-12">
                                             <img src={zion} className="card-img-top_v2" id="zion_id" alt="ZION"/>
                                             </div>
                                         </div>
                                         <div className="row justify-content-center">
                                             <div className="col-sm-12 col-md-12 col-lg-12 card-body">
-                                                <h5 className="card-title">Backpacking at the North Cascades</h5>
+                                                <h5 className="card-title">Angel's Landing at Zion</h5>
                                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-sm-12 col-md-3 col-lg-3 card_v1">
-                                        <div className="row justify-content-center">
+                                        <div className="row justify-content-center" id="img_div_2">
                                             <div className="col-sm-12 col-md-12 col-lg-12">
                                             <img src={nc_pic} className="card-img-top_v2" id="nc_id" alt="NOTH CASCADES"/>
                                             </div>
                                         </div>
                                         <div className="row justify-content-center">
                                             <div className="col-sm-12 col-md-12 col-lg-12 card-body">
-                                                <h5 className="card-title">Angel's Landing at Zion</h5>
+                                                <h5 className="card-title">Backpacking at the North Cascades</h5>
                                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                             </div>
                                         </div>
