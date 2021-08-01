@@ -1,5 +1,9 @@
 import "./projects.css";
 import Proj from "./proj";
+import dev_match from "./proj/dev_match.PNG";
+import petfinder from "./proj/petfinder.PNG";
+import burger_logger from "./proj/burger_logger.PNG";
+import weather_dashboard from "./proj/weather_dashboard.PNG";
 
 function Projects() {
   return (
@@ -14,24 +18,24 @@ function Projects() {
           <div className="col-sm-12 col-md-12 col-lg-12">
             <div className="row justify-content-center">
               <div className="col-sm-12 col-md-4 col-lg-4">
-                <Proj />
+                <Proj image={dev_match} />
               </div>
               <div className="col-sm-12 col-md-4 col-lg-4">
-                <Proj />              
+                <Proj image={burger_logger} />              
               </div>
               <div className="col-sm-12 col-md-4 col-lg-4">
-                <Proj />           
+                <Proj image={petfinder} />           
               </div>
             </div>
             <div className="row justify-content-center">
               <div className="col-sm-12 col-md-4 col-lg-4">
-                <Proj />   
+                <Proj image={weather_dashboard} />   
               </div>
               <div className="col-sm-12 col-md-4 col-lg-4">
-                <Proj />   
+                <Proj image={weather_dashboard} />   
               </div>
               <div className="col-sm-12 col-md-4 col-lg-4">
-                <Proj />   
+                <Proj image={weather_dashboard} />   
               </div>
             </div>
           </div>

@@ -9,6 +9,7 @@ import yos_pic from "./yos_pic.JPG";
 import nc_pic from "./nc_pic.jpg";
 import fpga from "./fpga.JPG";
 import zion from "./zion.jpg";
+import mountain from "./mountain.PNG";
 
 function About() {
   return (
@@ -29,7 +30,7 @@ function About() {
                             </div>
                             <div className="col-sm-11 col-md-7 col-lg-7" id="about_text">
                             <p>I grew up in Kent, Washington and went to college at the University of Washington in Seattle,
-                                    graduating with a degree in Electrical and Computer Engineering. Since then, I have had the opportunity
+                                    graduating with a degree in Electrical and Computer Engineering (ECE). Since then, I have had the opportunity
                                     to work in the EDA (Electronic Design and Automation) Industry in which I have gained a lot of
                                     technical experience working with Electrical Hardware Engineers to design and verify complex pieces
                                     of code and have had the opportunity to live in Portland, Oregon, and now, Austin, Texas!
@@ -61,7 +62,7 @@ function About() {
                                         <div className="row justify-content-center">
                                             <div className="col-sm-12 col-md-12 col-lg-12 card-body">
                                                 <h5 className="card-title">Self Sorting Trash Can</h5>
-                                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <p className="card-text">This trash can can sort between plastics and metal. It uses a PIC12 microcontroller, capacitive and inductive sensors to sort materials as well as servo motors and a distance sensor to sense objects.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -74,7 +75,7 @@ function About() {
                                         <div className="row justify-content-center">
                                             <div className="col-sm-12 col-md-12 col-lg-12 card-body">
                                                 <h5 className="card-title">Remote Control Car</h5>
-                                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <p className="card-text">This “no-crash” car was built using the Tiva Microcontroller. The car was given movement using servo motors and a distance sensor was used to avoid reaching too close to any object. It will never crash!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -87,7 +88,7 @@ function About() {
                                         <div className="row justify-content-center">
                                             <div className="col-sm-12 col-md-12 col-lg-12 card-body">
                                                 <h5 className="card-title">FPGA Maze Game</h5>
-                                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <p className="card-text">Using an 8x8 LED setup on an FPGA board, a one-player maze game was built. A synthesized hardware design using System Verilog was implemented and loaded onto the FPGA board.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -111,7 +112,7 @@ function About() {
                                         <div className="row justify-content-center">
                                             <div className="col-sm-12 col-md-12 col-lg-12 card-body">
                                                 <h5 className="card-title">Hiking at Yosemite</h5>
-                                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <p className="card-text">Hiking half dome was an incredible experience. The exhausting 16-mile hike to 8800 feet of elevation was worth it for the beautiful 360-degree views of the yosemite valley.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -123,8 +124,8 @@ function About() {
                                         </div>
                                         <div className="row justify-content-center">
                                             <div className="col-sm-12 col-md-12 col-lg-12 card-body">
-                                                <h5 className="card-title">Angel's Landing at Zion</h5>
-                                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <h5 className="card-title">Zion National Park</h5>
+                                                <p className="card-text">Angel’s Landing is a very terrifying hike in which chains are used to pull your-self up very narrow cliff-sides, but the views of Zion were absolutely stunning.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -136,8 +137,8 @@ function About() {
                                         </div>
                                         <div className="row justify-content-center">
                                             <div className="col-sm-12 col-md-12 col-lg-12 card-body">
-                                                <h5 className="card-title">Backpacking at the North Cascades</h5>
-                                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <h5 className="card-title">North Cascades</h5>
+                                                <p className="card-text">This 18-mile hike to the top of Sahale-Peak while carrying a 30-pound pack was a wild experience. The entire way featured beautiful mountain views and some cool wildlife.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -150,9 +151,16 @@ function About() {
         </div>
         <div className="row justify-content-center">
             <div className="col-sm-12 col-md-12 col-lg-12" id="info">
-                <p>Github</p>
-                <p>Linked In</p>
-                <p>Resume</p>
+                <button class="info_btn" type="button" onClick={()=> window.open("https://github.com/pmaganty", "_blank")}>
+                    Github Account
+                </button>
+                <button class="info_btn" type="button" onClick={()=> window.open("https://www.linkedin.com/in/pranitha-maganty-b4163799/", "_blank")}>
+                    Linked In Account
+                </button>
+            </div>
+        </div>
+        <div className="row justify-content-center" id="mountain_part">
+            <div className="col-sm-12 col-md-12 col-lg-12">
             </div>
         </div>
         <Footer />
