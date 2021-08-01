@@ -1,12 +1,34 @@
 #proj_img {
     width: 100%;
     height: 320px;
-    filter: grayscale(100%);
+    opacity: 0.5;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 #proj_id {
     width: 100%;
     margin: 30px;
     border: 5px solid black;
-
+    position: relative;
+    top: 0;
+    left: 0;
 }
+
+#ban_img {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+#proj_title {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+    font-size: 33px;
+}
+
