@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/public_portfolio/static/css/main.58a12bea.chunk.css",
+    "main.js": "/public_portfolio/static/js/main.2ee7a7e8.chunk.js",
+    "main.js.map": "/public_portfolio/static/js/main.2ee7a7e8.chunk.js.map",
+    "runtime-main.js": "/public_portfolio/static/js/runtime-main.1c68b4d3.js",
+    "runtime-main.js.map": "/public_portfolio/static/js/runtime-main.1c68b4d3.js.map",
+    "static/js/2.a21c70a2.chunk.js": "/public_portfolio/static/js/2.a21c70a2.chunk.js",
+    "static/js/2.a21c70a2.chunk.js.map": "/public_portfolio/static/js/2.a21c70a2.chunk.js.map",
+    "static/js/3.1d6eb20b.chunk.js": "/public_portfolio/static/js/3.1d6eb20b.chunk.js",
+    "static/js/3.1d6eb20b.chunk.js.map": "/public_portfolio/static/js/3.1d6eb20b.chunk.js.map",
+    "index.html": "/public_portfolio/index.html",
+    "static/css/main.58a12bea.chunk.css.map": "/public_portfolio/static/css/main.58a12bea.chunk.css.map",
+    "static/js/2.a21c70a2.chunk.js.LICENSE.txt": "/public_portfolio/static/js/2.a21c70a2.chunk.js.LICENSE.txt",
+    "static/media/banner.9e3d8e89.PNG": "/public_portfolio/static/media/banner.9e3d8e89.PNG",
+    "static/media/burger_logger.d064e794.PNG": "/public_portfolio/static/media/burger_logger.d064e794.PNG",
+    "static/media/dev_match.0658d274.PNG": "/public_portfolio/static/media/dev_match.0658d274.PNG",
+    "static/media/fpga.d80f7b0c.JPG": "/public_portfolio/static/media/fpga.d80f7b0c.JPG",
+    "static/media/about.css": "/public_portfolio/static/media/mountain.def21878.PNG",
+    "static/media/nc_pic.340cda8c.jpg": "/public_portfolio/static/media/nc_pic.340cda8c.jpg",
+    "static/media/petfinder.be89bee3.PNG": "/public_portfolio/static/media/petfinder.be89bee3.PNG",
+    "static/media/pran.38f5a32f.PNG": "/public_portfolio/static/media/pran.38f5a32f.PNG",
+    "static/media/rc_car.306c8430.PNG": "/public_portfolio/static/media/rc_car.306c8430.PNG",
+    "static/media/self_sort_pic.c4ba728a.PNG": "/public_portfolio/static/media/self_sort_pic.c4ba728a.PNG",
+    "static/media/top_pic.f0e77b51.jpg": "/public_portfolio/static/media/top_pic.f0e77b51.jpg",
+    "static/media/weather_dashboard.95d97102.PNG": "/public_portfolio/static/media/weather_dashboard.95d97102.PNG",
+    "static/media/web_bg_img.8bf63f3e.jpg": "/public_portfolio/static/media/web_bg_img.8bf63f3e.jpg",
+    "static/media/yos_pic.0dc42432.JPG": "/public_portfolio/static/media/yos_pic.0dc42432.JPG",
+    "static/media/zion.2367c4cc.jpg": "/public_portfolio/static/media/zion.2367c4cc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c68b4d3.js",
+    "static/js/2.a21c70a2.chunk.js",
+    "static/css/main.58a12bea.chunk.css",
+    "static/js/main.2ee7a7e8.chunk.js"
+  ]
+}
