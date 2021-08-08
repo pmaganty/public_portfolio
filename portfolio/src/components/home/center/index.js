@@ -28,7 +28,9 @@ function Center() {
                     </div>
                 </div>
                 <div className="row" id="menu">
-                    <button class="nav_btn" typ="button">About Me</button>
+                    <a href="/about">
+                        <button class="nav_btn" typ="button" href="/about">About Me</button>
+                    </a>
                     <a href="mailto:pranithamaganty@gmail.com?subject=Hello Pranitha!">
                         <button class="nav_btn" type="button">Contact</button>
                     </a>
