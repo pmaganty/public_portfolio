@@ -25,8 +25,10 @@ function Contact() {
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button type="submit" className="btn">Submit</button>
+                    </div> 
+                    <a href="mailto:pranithamaganty@gmail.com">
+                        <button type="submit" className="btn">Submit</button>
+                    </a>
                 </form>
             </div>
         </div>

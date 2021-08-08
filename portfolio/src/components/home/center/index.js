@@ -29,7 +29,9 @@ function Center() {
                 </div>
                 <div className="row" id="menu">
                     <button class="nav_btn" typ="button">About Me</button>
-                    <button class="nav_btn" type="button">Contact</button>
+                    <a href="mailto:pranithamaganty@gmail.com?subject=Hello Pranitha!">
+                        <button class="nav_btn" type="button">Contact</button>
+                    </a>
                 </div>
             </div>
         </div>
